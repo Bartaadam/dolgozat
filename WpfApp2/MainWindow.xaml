@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Gray">
+    <Grid>
+        <Button Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" Content="Lekérdez" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Click="Button_Click" Width="98"/>
+        <ListBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="lbAdatok" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="454,0,0,10" SelectionChanged="lbAdatok_SelectionChanged"/>
+        <Label Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="lbFilmAzon" Content="-" HorizontalAlignment="Center" Margin="0,126,0,0" VerticalAlignment="Top"/>
+        <Button Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" Content="Módosít" HorizontalAlignment="Center" Margin="0,73,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click_1"/>
+        <TextBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="tb1" HorizontalAlignment="Left" Margin="16,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="tb2" HorizontalAlignment="Left" Margin="136,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="tb3" HorizontalAlignment="Left" Margin="16,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="tb4" HorizontalAlignment="Left" Margin="136,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="tb5" HorizontalAlignment="Left" Margin="16,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
