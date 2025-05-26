@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Gray">
+        Title="MainWindow" Height="450" Width="800" Background="Black">
     <Grid>
         <Button Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" Content="Lekérdez" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Click="Button_Click" Width="98"/>
         <ListBox Background="Black" Foreground="Red" FontSize="14" FontWeight="Bold" Padding="10,5" BorderThickness="2" BorderBrush="Red" Cursor="Hand" x:Name="lbAdatok" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="454,0,0,10" SelectionChanged="lbAdatok_SelectionChanged"/>
